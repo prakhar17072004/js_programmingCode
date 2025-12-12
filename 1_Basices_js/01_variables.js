@@ -10,4 +10,8 @@ accountCity = "Noida";
  accountPassword ="345"
  accountCity="Ayodhya"
 
+/*  prefer not to use var 
+   because of issue in block scope and funtional scope
+ */
+
 console.table([accountId,accountEmail,accountPassword,accountCity])
