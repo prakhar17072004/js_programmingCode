@@ -3,12 +3,12 @@
 // let score = undefined; // NaN
 // let score = true // 1
 let score = "Prakhar" // NaN
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
 let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
 
 // important points 
 
@@ -21,7 +21,7 @@ console.log(valueInNumber);
 let isLoggedIn ="prakhar mishra"// true
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
 
 
 // notes
@@ -42,25 +42,32 @@ console.log(booleanIsLoggedIn);
 let str1= "hello"
 let str2 = " Prakhar"
 let str3 = str1 + str2
-console.log(str3);
+// console.log(str3);
 
 
 // some special situations
- console.log(1+"2") //12
- console.log("1"+ 2);//12
- console.log("1"+2 +2);//122
- console.log(1 +2+"2"); //32
- console.log(true);// true
- console.log(+true);//1 
- console.log(+"");//0
+//  console.log(1+"2") //12
+//  console.log("1"+ 2);//12
+//  console.log("1"+2 +2);//122
+//  console.log(1 +2+"2"); //32
+//  console.log(true);// true
+//  console.log(+true);//1 
+//  console.log(+"");//0
  //console.log(+false);//0
  //console.log(true+);// syntaxerror 
  //console.log(false+);// syntaxerror
- console.log(0+0);
- console.log(0*0)
- console.log(1*0);
- console.log(0);
+//  console.log(0+0);
+//  console.log(0*0)
+//  console.log(1*0);
+//  console.log(0);
  
+ let gameCounter = 100
+//  gameCounter++ // 101
+// ++gameCounter // 101
+ 
+// let res =gameCounter++ //100
+let res =++gameCounter // 101
+ console.log(res);
  
  
 
