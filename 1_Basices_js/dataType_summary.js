@@ -28,3 +28,7 @@ const freedomFighter = ["Bhagat Singh","Subhas chandra Bose","Chandrashekhar Aza
     
 }
 myFunction()
+console.log(typeof myFunction);
+console.log(typeof myObject);
+console.log(typeof freedomFighter);
+
