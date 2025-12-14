@@ -32,3 +32,27 @@ console.log(typeof myFunction);
 console.log(typeof myObject);
 console.log(typeof freedomFighter);
 
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) and Heap(Non-primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+ 
+ anothername = "chaiaurcode"
+console.log(myYoutubename);
+ console.log(anothername);
+
+ let user1 = {
+  email : "user@google.com",
+   upi:"user@ybl",
+ }
+
+ console.log(user1);
+ let user2 = user1;
+ user2.email = "ram@gmail.com"
+ console.log(user2)
+  console.log(user1);
+ 
+ 
