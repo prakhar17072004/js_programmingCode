@@ -7,3 +7,11 @@ let name = 'Prakhar mishra'
 
 const repoCount = 40;
 console.log(`hey ${name} is a self motivated and self dependent person `);
+
+const userName = new String('Prakhar ')
+
+console.log(userName.length);
+console.log(userName.toLowerCase());
+console.log(userName.toUpperCase());
+
+
