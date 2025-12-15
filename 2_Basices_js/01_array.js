@@ -8,8 +8,15 @@
  console.log(myArr[4]);
  // Array methods 
 
- myArr.push(6)
+ myArr.push(6) //add the element at end
  console.log(myArr);
- myArr.pop()
+ myArr.pop() // remove the element from end
+ 
+ console.log(myArr);
+ myArr.unshift(4) // add the element at start and shift the every element 1 index right
+
+ 
+ console.log(myArr);
+ myArr.shift()// remove the element from start
  
  console.log(myArr);
