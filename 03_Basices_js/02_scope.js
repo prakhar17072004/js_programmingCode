@@ -1,11 +1,13 @@
 //let var and const
-
+// global scope 
 
 
 {
+    // block scope
+
     let a= 30;
-const b= 40;
-var c = 46;
+    const b= 40;
+    
 
     // console.log(a);
     // console.log(b);
