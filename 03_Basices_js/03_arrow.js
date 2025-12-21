@@ -34,7 +34,7 @@
 // }
 // chai()
 
-// arrow funtion
+// arrow funtion // explicit return
 //  const addTwo = (num1,num2)=>{
 //     return num1 +num2;
 //  }
@@ -43,4 +43,5 @@
 
 // implicit return 
 
-  const 
+  const addTwo = (num1,num2)=> num1 +num2
+  console.log(addTwo(3,2));
